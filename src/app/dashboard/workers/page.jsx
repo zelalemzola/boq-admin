@@ -372,7 +372,7 @@ const Workers = () => {
               {filteredMaids.map((maid) => (
                 <tr key={maid._id} className='border-b '>
                   <td className=" py-3 px-4">{maid.name}</td>
-                  <td className=" py-3 px-4 hidden md:flex">{maid.pricePerMonth}</td>
+                  <td className=" py-3 px-4 ">{maid.pricePerMonth}</td>
                  {maid.isAvailable?
                  <td className=" py-3 px-4"><p className='rounded-full bg-green-800 text-white text-center p-1'>Yes</p></td>
                  :
