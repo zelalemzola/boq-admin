@@ -362,23 +362,24 @@ const Workers = () => {
           <table className="min-w-full bg-white w-full border">
             <thead className="bg-gray-800 text-white">
               <tr className='border'>
-                <th className=" py-3 px-4 uppercase font-semibold text-sm">Name</th>              
-                <th className=" py-3 px-4 uppercase font-semibold text-sm ">Price/Mo</th>
-                <th className=" py-3 px-4 uppercase font-semibold text-sm">Availablity</th>
-                <th className=" py-3 px-4 uppercase font-semibold text-sm">Actions</th>
+                <th className=" py-3 px-4 uppercase font-semibold text-sm text-center">Name</th>              
+                <th className=" py-3 px-4 uppercase font-semibold text-sm text-center ">Price/Mo</th>
+                <th className=" py-3 px-4 uppercase font-semibold text-sm text-center">Availablity</th>
+                <th className=" py-3 px-4 uppercase font-semibold text-sm text-center">Actions</th>
               </tr>
             </thead>
             <tbody className='text-gray-700'>
               {filteredMaids.map((maid) => (
                 <tr key={maid._id} className='border-b '>
-                  <td className=" py-3 px-4">{maid.name}</td>
-                  <td className=" py-3 px-4 ">{maid.pricePerMonth}</td>
+                  <td className=" py-3 px-4 text-center">{maid.name}</td>
+                  <td className=" py-3 px-4 text-center ">{maid.pricePerMonth}</td>
                  {maid.isAvailable?
-                 <td className=" py-3 px-4"><p className='rounded-full bg-green-800 text-white text-center p-1'>Yes</p></td>
+                 <td className=" py-3 px-4 text-center"><p className='rounded-full bg-green-800 text-white text-center p-1'>Yes</p></td>
                  :
-                 <td className=" py-3 px-4"><p className='rounded-full bg-red-600 text-white text-center p-1'>No</p></td>
+                 <td className=" py-3 px-4 text-center"><p className='rounded-full bg-red-600 text-white text-center p-1'>No</p></td>
                  }
-                  <td className=" py-3 px-4 flex items-center gap-2" >
+                  <td className=" py-3 px-4 text-center" >
+                     <div className="flex justify-center items-center gap-2">
                     <Drawer>
                       <DrawerTrigger>
                         <Button onClick={() => handleEdit(maid)} className='bg-green-500 hover:bg-green-500 text-white p-2 px-4'>Edit</Button>
@@ -514,6 +515,7 @@ const Workers = () => {
                       </DrawerContent>
                     </Drawer>
                     <Button onClick={() => handleDelete(maid._id)} variant='destructive' className='p-2'>Delete</Button>
+                    </div>
                   </td>
                 </tr>
               ))}
