@@ -169,8 +169,8 @@ const Partners = () => {
           />
         </div>
       </div>
-      <div className="z-0 w-full pt-[35%] lg:pt-[10%] px-10 py-2">
-  <table className="min-w-full bg-white w-full border">
+      <div className="z-0 w-full pt-[35%] lg:pt-[10%] md:px-10 py-2">
+  <table className="min-w-full bg-white w-[90%] md:w-full border">
     <thead className="bg-gray-800 text-white">
       <tr className='border'>
         {/* Added text-center to center the header content */}
