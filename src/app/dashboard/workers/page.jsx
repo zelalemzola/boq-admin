@@ -212,7 +212,7 @@ const Workers = () => {
 
   return (
     <div className=''>
-        <div className="fixed bg-white z-30 w-full px-4 py-3 border-b shadow-md flex flex-col lg:flex-row items-center gap-3 lg:gap-20">
+        <div className="fixed bg-white z-30 w-full px-4 py-3 border-b shadow-md flex flex-col lg:flex-row items-center gap-3 ">
         <Drawer>
           <DrawerTrigger>
             <div className='flex items-center justify-between gap-10 rounded-sm p-2 bg-primary'>

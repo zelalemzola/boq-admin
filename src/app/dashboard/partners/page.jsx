@@ -103,7 +103,7 @@ const Partners = () => {
 
   return (
     <div>
-      <div className="fixed bg-gray-50 shadow-xl z-30 w-full px-4 py-3 border-b  flex flex-col lg:flex-row items-center gap-6 lg:gap-20">
+      <div className="fixed bg-gray-50 shadow-xl z-30 w-full px-4 py-3 border-b  flex flex-col lg:flex-row items-center gap-6">
         <Drawer>
           <DrawerTrigger>
             <div className='flex items-center justify-between gap-10 rounded-sm p-2 bg-primary '>
@@ -169,7 +169,7 @@ const Partners = () => {
           />
         </div>
       </div>
-      <div className="z-0 w-full pt-[35%] lg:pt-[10%] md:px-10 py-2">
+      <div className="z-0 w-full pt-[35%] lg:pt-[20%] md:px-10 py-2">
   <table className="min-w-full bg-white w-[90%] md:w-full border">
     <thead className="bg-gray-800 text-white">
       <tr className='border'>

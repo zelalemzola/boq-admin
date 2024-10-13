@@ -66,7 +66,7 @@ const Categories = () => {
   
   return (
     <div className='flex flex-col gap-6'>
-      <div className='fixed  p-2 bg-gray-50 shadow-xl w-full z-30 flex flex-col-reverse lg:flex-row items-start lg:items-center gap-6 lg:gap-40'>
+      <div className='fixed  p-2 bg-gray-50 shadow-xl w-full z-30 flex flex-col-reverse lg:flex-row items-start lg:items-center gap-6 '>
         <div className='border shadow-lg p-2 rounded-lg w-fit'>
           <input
             type="text"
