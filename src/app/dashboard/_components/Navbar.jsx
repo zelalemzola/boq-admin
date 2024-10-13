@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className='p-3 flex items-center justify-between border-b border-b-primary text-primary  text-xl fixed z-50 w-full'>
         <Link href='/dashboard' className='font-bold'>BOQ Dashboard</Link>
-         <div className='lg:hidden'>
+         <div className='flex lg:hidden'>
          <Drawer>
            <DrawerTrigger>
                 <AlignJustify  className='font-bold text-lg '/>

@@ -212,7 +212,7 @@ const Workers = () => {
 
   return (
     <div className=''>
-        <div className="fixed bg-white z-30 w-full px-4 py-3 border-b shadow-md flex flex-col lg:flex-row items-center gap-6 lg:gap-20">
+        <div className="fixed bg-white z-30 w-full px-4 py-3 border-b shadow-md flex flex-col lg:flex-row items-center gap-3 lg:gap-20">
         <Drawer>
           <DrawerTrigger>
             <div className='flex items-center justify-between gap-10 rounded-sm p-2 bg-primary'>
@@ -347,7 +347,7 @@ const Workers = () => {
             </DrawerFooter>
           </DrawerContent>
         </Drawer>
-        <div className="flex items-center gap-2 p-2 border border-primary rounded-full w-[70%] lg:w-[40%]">
+        <div className="flex items-center gap-2 p-2 border shadow-lg rounded-full w-[70%] lg:w-[40%]">
           <Search />
           <input
             type="text"

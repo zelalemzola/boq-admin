@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './_components/Navbar';
 import Sidebar from './_components/Sidebar';
-
 import "@uploadthing/react/styles.css";
+
 import '../globals.css';
 export const metadata = {
   title: "BOQ Professional's Admin Dashboard",
