@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="BOQ Workers"></h1>
         </div>
         <div className="w-full h-[60%] md:w-1/2 md:h-screen bg-white flex flex-col gap-5 items-center justify-center ">
-          <h1 className="text-primary font-bold text-2xl md:text-4xl">Welcome Dear Admin</h1>
+          <h1 className="text-white font-bold text-2xl md:text-4xl">Welcome Dear Admin</h1>
           <Button className='bg-primary hover:shadow-lg text-white'><Link href="/dashboard" className="text-white rounded-lg">Go To Dashboard</Link></Button>
 
         </div>
